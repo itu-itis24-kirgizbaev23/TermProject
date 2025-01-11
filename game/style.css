@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+.tourney-custom {
+    font-family: "Tourney", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.orbitron-custom{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-color: #147178 black;
+}
+
+body{
+    background-color: black;
+}
+.main-container{
+    text-align: center;
+}
+
+h1{
+    font-family: Tourney;
+    font-size: 4.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.game-content{
+    display: flex;
+    justify-content: center;
+}
+
+.letter{
+    border: 2px solid #147178;
+    width: 10rem;
+    height: 10rem;
+    padding: 0.25rem;
+    margin: 1rem;
+    justify-items: center;
+}
+
+.letter img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.prediction{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: Orbitron;
+    font-size: 2rem;
+    color: white;
+}
+
+#prediction-input{
+    padding: 0.5rem 1rem;
+    color: black;
+    border: 2px solid #147178;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: Orbitron;
+    font-weight: bold;
+    letter-spacing: 0.1rem; 
+}    
+
+.settings{
+    position: absolute;
+    right: 15%;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.settings img{
+    margin: 0.25rem;
+}
+
+h3{
+    font-family: Orbitron;
+    font-size: 1rem;
+    color: rgb(255, 251, 0);
+}
+
+#submit-button{
+    background-color: rgb(232, 91, 49);
+    color: white;
+    font-family: Orbitron;
+    font-size: 1.125rem;
+    padding: 0.75rem 4rem;
+    display: block;
+    margin: 1.5rem auto;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#reset-button{
+    background-color: white;
+    color: black;
+    font-family: Orbitron;
+    font-size: 1.125rem;
+    padding: 0.75rem 4rem;
+    display: block;
+    margin: 1.5rem auto;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
