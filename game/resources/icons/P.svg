@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   sodipodi:docname="H.svg"
+   sodipodi:docname="P.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="2.4288832"
-     inkscape:cx="3.9112627"
-     inkscape:cy="25.320279"
+     inkscape:zoom="2.1325257"
+     inkscape:cx="26.963333"
+     inkscape:cy="46.658289"
      inkscape:window-width="1512"
      inkscape:window-height="840"
      inkscape:window-x="0"
@@ -95,123 +95,40 @@
        x="0"
        y="0" />
     <rect
-       style="fill:#000000;stroke-width:0.912871"
-       id="rect5"
-       width="20"
-       height="100"
-       x="20"
-       y="20" />
-    <rect
-       style="fill:#000000;stroke-width:0.912871"
-       id="rect6"
-       width="20"
-       height="100"
-       x="80"
-       y="20" />
-    <rect
-       style="fill:#000000"
-       id="rect7"
-       width="45"
-       height="15"
-       x="40"
-       y="60" />
-    <rect
-       style="fill:#000000"
-       id="rect8"
-       width="45"
-       height="15"
-       x="35"
-       y="55" />
-    <rect
-       style="fill:#000000"
-       id="rect9"
-       width="30"
-       height="5"
-       x="15"
-       y="15" />
-    <rect
-       style="fill:#000000"
-       id="rect10"
-       width="30"
-       height="5"
-       x="75"
-       y="15" />
-    <rect
-       style="fill:#000000"
-       id="rect11"
-       width="40"
-       height="10"
-       x="10"
-       y="110" />
-    <rect
-       style="fill:#000000"
-       id="rect12"
-       width="40"
-       height="10"
-       x="70"
-       y="110" />
-    <rect
-       style="fill:#ffffff"
+       style="fill:#000000;stroke-width:1.0351"
        id="rect2"
-       width="5"
-       height="10"
-       x="10"
-       y="110" />
-    <rect
-       style="fill:#ffffff"
-       id="rect3"
-       width="5"
-       height="5"
-       x="15"
-       y="110" />
-    <rect
-       style="fill:#ffffff"
-       id="rect4"
-       width="10"
-       height="5"
-       x="40"
-       y="110" />
-    <rect
-       style="fill:#ffffff"
-       id="rect13"
-       width="5"
-       height="5"
-       x="45"
-       y="115" />
-    <rect
-       style="fill:#ffffff"
-       id="rect14"
-       width="5"
-       height="10"
-       x="70"
-       y="110" />
-    <rect
-       style="fill:#ffffff"
-       id="rect15"
-       width="5"
-       height="5"
-       x="75"
-       y="110" />
-    <rect
-       style="fill:#ffffff"
-       id="rect16"
-       width="10"
-       height="5"
-       x="100"
-       y="110" />
-    <rect
-       style="fill:#ffffff"
-       id="rect17"
-       width="5"
-       height="5"
-       x="105"
-       y="115" />
-    <rect
-       style="fill:#ffffff"
-       id="rect18"
        width="40"
-       height="5"
-       x="40"
-       y="55" />
+       height="10.714286"
+       x="20"
+       y="109.28571" />
+    <rect
+       style="fill:#000000;stroke-width:1.28638"
+       id="rect3"
+       width="20"
+       height="99.285713"
+       x="30"
+       y="10"
+       ry="0" />
+    <rect
+       style="fill:#000000"
+       id="rect4"
+       width="45"
+       height="15"
+       x="50"
+       y="15" />
+    <rect
+       style="fill:#000000;stroke-width:0.999998"
+       id="rect4-7"
+       width="45"
+       height="15"
+       x="50"
+       y="50" />
+    <rect
+       style="fill:#000000"
+       id="rect5"
+       width="15"
+       height="32.72467"
+       x="90"
+       y="25" />
   </g>
 </svg>
