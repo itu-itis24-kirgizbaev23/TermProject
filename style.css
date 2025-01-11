@@ -35,6 +35,19 @@ body {
     height: 100%;
 }
 
+#start-text {
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#start-text:hover {
+    transform: translate(-50%, -55%) scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 .intro-page p {
     position: absolute;
     top: 40%;
@@ -135,6 +148,12 @@ h2{
     cursor: pointer;
 }
 
+.button1:hover {
+    background-color: #e5e5e5;
+    transform: scale(1.1) translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
 #link1{
     text-decoration: none;
     color: black;
@@ -174,10 +193,20 @@ h2{
     cursor: pointer;
 }
 
+.button2:hover {
+    background-color: rgb(240, 125, 90);
+    transform: scale(1.1) translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
 .add-container{
     margin-top: 50rem;
     background-color: black;
     text-align: center;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
 }
 
 .resume{
@@ -199,4 +228,11 @@ h2{
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+#return{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 3rem;
+    height: 3rem;
 }
