@@ -69,6 +69,7 @@ function wrongAnswer(){
 }
 
 function gameOver(){
+    alert("You lose")
     document.getElementById('gameOverOverlay').style.display = 'flex';
 }
 
