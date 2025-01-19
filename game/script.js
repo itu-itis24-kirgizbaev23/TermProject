@@ -29,7 +29,13 @@ function checkLetter() {
 }
 
 function openLetter(letter) {
-    alert("You opened a letter " + letter + ".");
+    if (document.getElementById(`letter-${letter}`).style.display === 'block') {
+        score -= 20;
+        return
+    }
+    if (score<100){
+        alert("You opened a letter " + letter + ".");
+    }
     document.getElementById(`stone-${letter}`).style.display = 'none';
     document.getElementById(`letter-${letter}`).style.display = 'block';
 }

@@ -58,8 +58,14 @@ h1{
     height: 10rem;
 }
 
-.prediction{
+.mechanics{
     margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prediction{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,9 +89,9 @@ h2{
 }    
 
 .settings{
-    position: absolute;
-    right: 15%;
-    top: 60%;
+    position: relative;
+    margin-top: 1rem;
+    right: -10%;
     transform: translateY(-50%);
 }
 
@@ -148,7 +154,7 @@ h3{
     align-items: center;
     text-align: center;
     display: none;
-    z-index: 1000;             
+    z-index: 999;             
     flex-direction: column; 
 }
 
@@ -163,7 +169,7 @@ h3{
     align-items: center;
     text-align: center;
     display: none;
-    z-index: 1000;             
+    z-index: 999;             
     flex-direction: column; 
 }
 

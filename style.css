@@ -194,7 +194,7 @@ h2{
 }
 
 .button2:hover {
-    background-color: rgb(240, 125, 90);
+    background-color: rgb(232, 91, 49);
     transform: scale(1.1) translateY(-5px);
     transition: transform 0.3s ease;
 }

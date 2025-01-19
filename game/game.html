@@ -5,57 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Prediction Game</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="gameOverOverlay">
         <h4 style=" color: red;"> Game Over!</h4>
-        <hd></hd>
         <h2 onclick="resetGame()" style="text-decoration: underline; cursor: pointer; margin-bottom: 5%;">Click here to restart...</h2>
     </div>
     <div id="gameWonOverlay">
         <h4 style=" color: green;"> You won!</h4>
-        <hd></hd>
         <h2 onclick="resetGame()" style="text-decoration: underline; cursor: pointer; margin-bottom: 5%;">Click here to restart...</h2>
     </div>
-    <div class="main-container">
+    <section class="main-container">
         <h1>WORD PREDICTION GAME</h1>
         <div class="game-content">
             <div class="letter"> 
                 <img src="resources/images/stone.png" alt="Stone" style="display: block;" id="stone-n">
-                <img src="resources/icons/N.svg" style="display: none;" id="letter-n">
+                <img src="resources/icons/N.svg" alt="N" style="display: none;" id="letter-n">
             </div>
             <div class="letter">
                 <img src="resources/images/stone.png" alt="Stone" style="display: block;" id="stone-y">
-                <img src="resources/icons/Y.svg" style="display: none;" id="letter-y">
+                <img src="resources/icons/Y.svg" alt="Y" style="display: none;" id="letter-y">
             </div>
             <div class="letter">
                 <img src="resources/images/stone.png" alt="Stone" style="display: block;" id="stone-m">
-                <img src="resources/icons/M.svg" style="display: none;" id="letter-m">
+                <img src="resources/icons/M.svg" alt="M" style="display: none;" id="letter-m">
             </div>
             <div class="letter">
                 <img src="resources/images/stone.png" alt="Stone" style="display: block;" id="stone-p">
-                <img src="resources/icons/P.svg" style="display: none;" id="letter-p">
+                <img src="resources/icons/P.svg" alt="P" style="display: none;" id="letter-p">
             </div>
             <div class="letter">
                 <img src="resources/images/stone.png" alt="Stone" style="display: block;" id="stone-h">
-                <img src="resources/icons/H.svg" style="display: none;" id="letter-h">
+                <img src="resources/icons/H.svg" alt="H" style="display: none;" id="letter-h">
             </div>
         </div>
-        <div class="prediction">
-            <h2>Your prediction:</h2>
-            <input type="text" id="prediction-input" placeholder="Enter your prediction...">
-        </div>
-        <div class="settings">
-            <h3>Your score: <span id="score">0</span></h3>
-            <img id="life1" src="resources/icons/heart.svg" alt="Heart">
-            <img id="life2" src="resources/icons/heart.svg" alt="Heart">
-            <img id="life3" src="resources/icons/heart.svg" alt="Heart">
+        <div class ="mechanics">
+            <div class="prediction">
+                <h2>Your prediction:</h2>
+                <input type="text" id="prediction-input" placeholder="Enter your prediction...">
+            </div>
+            <div class="settings">
+                <h3>Your score: <span id="score">0</span></h3>
+                <img id="life1" src="resources/icons/heart.svg" alt="Heart">
+                <img id="life2" src="resources/icons/heart.svg" alt="Heart">
+                <img id="life3" src="resources/icons/heart.svg" alt="Heart">
+            </div>
         </div>
         <div class="submission">
             <button id="submit-button" onclick="checkLetter()">Submit</button>
             <button id="reset-button" onclick="resetGame()">Reset</button>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </section>
 </body>
 </html>
